@@ -1,0 +1,839 @@
+{
+  "111Movies": {
+    "allow_attributes": "",
+    "createdAt": "2026-07-02T23:15:12.277Z",
+    "enabled": true,
+    "iframe_attributes": {
+      "frameborder": "0"
+    },
+    "isphone_enabled": true,
+    "istv_enabled": true,
+    "movie_url_template": "https://111movies.com/movie/%d",
+    "stream_provider_name": "111Movies",
+    "tv_url_template": "https://111movies.com/tv/%d/%d/%d",
+    "url": "https://111movies.com"
+  },
+  "Amri": {
+    "allow_attributes": "",
+    "createdAt": "2026-07-02T23:15:12.277Z",
+    "enabled": false,
+    "isphone_enabled": true,
+    "istv_enabled": false,
+    "movie_parameters": {
+      "autoplay": "true"
+    },
+    "movie_url_template": "https://amri.gg/movie/%d",
+    "stream_provider_name": "Amri",
+    "tv_parameters": {
+      "autoplay": "true"
+    },
+    "tv_url_template": "https://amri.gg/tv/%d/%d/%d",
+    "url": "https://amri.gg"
+  },
+  "Anyembed": {
+    "allow_attributes": "",
+    "createdAt": "2026-07-09T15:48:00.476Z",
+    "enabled": false,
+    "isphone_enabled": true,
+    "istv_enabled": true,
+    "movie_url_template": "https://anyembed.xyz/embed/tmdb-movie-%d",
+    "stream_provider_name": "Anyembed",
+    "tv_url_template": "https://anyembed.xyz/embed/tmdb-tv-%d-%d-%d",
+    "url": "https://anyembed.xyz"
+  },
+  "Autoembed": {
+    "allow_attributes": "",
+    "createdAt": "2026-07-02T23:15:12.277Z",
+    "enabled": true,
+    "isphone_enabled": true,
+    "istv_enabled": false,
+    "movie_url_template": "https://autoembed.co/movie/tmdb/%d",
+    "stream_provider_name": "Autoembed",
+    "tv_url_template": "https://autoembed.co/tv/tmdb/%d-%d-%d",
+    "url": "https://autoembed.co"
+  },
+  "CineSrc": {
+    "allow_attributes": "",
+    "createdAt": "2026-07-02T23:15:12.277Z",
+    "enabled": true,
+    "isphone_enabled": true,
+    "istv_enabled": false,
+    "movie_parameters": {
+      "autoplay": "true",
+      "autoskip": "true",
+      "color": "#e50914",
+      "quality": "1080"
+    },
+    "movie_url_template": "https://cinesrc.st/embed/movie/%d",
+    "stream_provider_name": "CineSrc",
+    "tv_parameters": {
+      "autonext": "true",
+      "autoplay": "true",
+      "autoskip": "true",
+      "color": "FF1493",
+      "quality": "1080"
+    },
+    "tv_url_template": "https://cinesrc.st/embed/tv/%d?s=%d&e=%d",
+    "url": "https://cinesrc.st"
+  },
+  "Cinemaos": {
+    "allow_attributes": "",
+    "createdAt": "2026-07-02T23:15:12.277Z",
+    "enabled": true,
+    "isphone_enabled": true,
+    "istv_enabled": false,
+    "movie_parameters": {
+      "autoplay": "true"
+    },
+    "movie_url_template": "https://cinemaos.tech/player/%d",
+    "stream_provider_name": "Cinemaos",
+    "tv_parameters": {
+      "autoplay": "true"
+    },
+    "tv_url_template": "https://cinemaos.tech/player/%d/%d/%d",
+    "url": "https://cinemaos.tech"
+  },
+  "Cinezo": {
+    "allow_attributes": "",
+    "createdAt": "2026-07-09T14:04:33.374Z",
+    "enabled": true,
+    "isphone_enabled": true,
+    "istv_enabled": true,
+    "movie_url_template": "https://player.cinezo.live/embed/movie/%d",
+    "stream_provider_name": "Cinezo",
+    "tv_url_template": "https://player.cinezo.live/embed/tv/%d/%d/%d",
+    "url": "https://www.cinezo.net/"
+  },
+  "Delta": {
+    "allow_attributes": "",
+    "createdAt": "2026-07-21T05:45:08.307Z",
+    "enabled": false,
+    "isphone_enabled": false,
+    "istv_enabled": false,
+    "movie_parameters": {
+      "color": "e50914",
+      "overlay": "true"
+    },
+    "movie_url_template": "https://player.videasy.net/movie/%d",
+    "stream_provider_name": "Delta",
+    "tv_parameters": {
+      "color": "e50914",
+      "overlay": "true"
+    },
+    "tv_url_template": "https://player.videasy.net/tv/%d/%d/%d",
+    "url": "https://player.videasy.net"
+  },
+  "EmbedMaster": {
+    "allow_attributes": "",
+    "createdAt": "2026-07-02T23:15:12.277Z",
+    "enabled": true,
+    "isphone_enabled": true,
+    "istv_enabled": true,
+    "movie_parameters": {
+      "autoPlay": "true"
+    },
+    "movie_url_template": "https://embedmaster.link/movie/%d",
+    "stream_provider_name": "EmbedMaster",
+    "tv_parameters": {
+      "autoNext": "true",
+      "autoPlay": "true",
+      "nextButton": "true"
+    },
+    "tv_url_template": "https://embedmaster.link/tv/%d/%d/%d",
+    "url": "https://embedmaster.link"
+  },
+  "Filesun": {
+    "allow_attributes": "",
+    "createdAt": "2026-07-26T23:15:19.340Z",
+    "enabled": false,
+    "isphone_enabled": true,
+    "istv_enabled": true,
+    "movie_url_template": "https://filesun.sbs/embed/movie/%d",
+    "stream_provider_name": "Filesun",
+    "tv_url_template": "https://filesun.sbs/embed/tv/%d/%d/%d",
+    "url": "https://filesun.sbs"
+  },
+  "Filmora": {
+    "allow_attributes": "",
+    "createdAt": "2026-07-10T05:11:49.811Z",
+    "enabled": true,
+    "isphone_enabled": true,
+    "istv_enabled": true,
+    "movie_url_template": "https://filmora.qzz.io/watch/movie/%d",
+    "stream_provider_name": "Filmora",
+    "tv_url_template": "https://filmora.qzz.io/watch/tv/%d/%d/%d",
+    "url": "https://filmora.qzz.io"
+  },
+  "Flixer": {
+    "allow_attributes": "",
+    "createdAt": "2026-07-02T23:15:12.277Z",
+    "enabled": true,
+    "isphone_enabled": true,
+    "istv_enabled": true,
+    "movie_url_template": "https://flixer.su/watch/movie/%d",
+    "stream_provider_name": "Flixer",
+    "tv_url_template": "https://flixer.su/watch/tv/%d/%d/%d",
+    "url": "https://flixer.su"
+  },
+  "Gaiaflix": {
+    "allow_attributes": "",
+    "createdAt": "2026-07-10T05:11:49.811Z",
+    "enabled": true,
+    "isphone_enabled": true,
+    "istv_enabled": true,
+    "movie_url_template": "https://gaiaflix.live/watch/%d?type=movie",
+    "stream_provider_name": "Gaiaflix",
+    "tv_url_template": "https://gaiaflix.live/watch/%d?type=tv&s=%d&e=%d",
+    "url": "https://gaiaflix.live"
+  },
+  "Goated": {
+    "allow_attributes": "",
+    "createdAt": "2026-07-10T05:11:49.811Z",
+    "enabled": true,
+    "isphone_enabled": true,
+    "istv_enabled": true,
+    "movie_url_template": "https://goated.cx/movie/%d/play",
+    "stream_provider_name": "Goated",
+    "tv_url_template": "https://goated.cx/tv/%d/play?season=%d&episode=%d",
+    "url": "https://goated.cx"
+  },
+  "Haze": {
+    "allow_attributes": "",
+    "enabled": true,
+    "isphone_enabled": true,
+    "istv_enabled": true,
+    "movie_url_template": "https://vsembed.ru/embed/movie/%d",
+    "stream_provider_name": "Haze",
+    "tv_url_template": "https://vsembed.ru/embed/tv/%d/%d/%d",
+    "url": "https://vsembed.ru"
+  },
+  "Kappa": {
+    "allow_attributes": "",
+    "enabled": true,
+    "isphone_enabled": true,
+    "istv_enabled": true,
+    "movie_url_template": "https://airflix1.com/embed/movie/%d",
+    "stream_provider_name": "Kappa",
+    "tv_url_template": "https://airflix1.com/embed/tv/%d/%d/%d",
+    "url": "https://airflix1.com"
+  },
+  "Kite": {
+    "allow_attributes": "",
+    "createdAt": "2026-07-26T23:14:00.458Z",
+    "enabled": false,
+    "isphone_enabled": true,
+    "istv_enabled": true,
+    "movie_url_template": "https://www.zxcstream.xyz/player/movie/%d",
+    "stream_provider_name": "Kite",
+    "tv_url_template": "https://www.zxcstream.xyz/player/tv/%d/%d/%d",
+    "url": "https://www.zxcstream.xyz"
+  },
+  "Lordflix": {
+    "allow_attributes": "",
+    "createdAt": "2026-07-02T23:15:12.277Z",
+    "enabled": true,
+    "isphone_enabled": true,
+    "istv_enabled": false,
+    "movie_url_template": "https://lordflix.org/watch/movie/%d",
+    "stream_provider_name": "Lordflix",
+    "tv_url_template": "https://lordflix.org/watch/tv/%d/%d/%d",
+    "url": "https://lordflix.org"
+  },
+  "Mapple": {
+    "allow_attributes": "",
+    "createdAt": "2026-07-02T23:15:12.277Z",
+    "enabled": true,
+    "isphone_enabled": true,
+    "istv_enabled": true,
+    "movie_url_template": "https://mapple.uk/watch/movie/%d",
+    "stream_provider_name": "Mapple",
+    "tv_url_template": "https://mapple.uk/watch/tv/%d-%d-%d",
+    "url": "https://mapple.uk"
+  },
+  "Moviebite": {
+    "allow_attributes": "",
+    "createdAt": "2026-07-09T14:49:56.921Z",
+    "enabled": false,
+    "isphone_enabled": true,
+    "istv_enabled": true,
+    "movie_url_template": "https://moviebite.cc/watch/movie/%d",
+    "stream_provider_name": "Moviebite",
+    "tv_url_template": "https://moviebite.cc/watch/tv/%d/season/%d/episode/%d",
+    "url": "https://moviebite.cc"
+  },
+  "Neon": {
+    "allow_attributes": "",
+    "enabled": true,
+    "isphone_enabled": true,
+    "istv_enabled": true,
+    "movie_url_template": "https://moviesapi.to/movie/%d",
+    "stream_provider_name": "Neon",
+    "tv_url_template": "https://moviesapi.to/tv/%d/%d/%d",
+    "url": "https://moviesapi.to"
+  },
+  "Nxsha": {
+    "allow_attributes": "",
+    "createdAt": "2026-07-10T05:11:49.811Z",
+    "enabled": false,
+    "isphone_enabled": false,
+    "istv_enabled": false,
+    "movie_url_template": "https://web.nxsha.app/watch/movie/%d",
+    "stream_provider_name": "Nxsha",
+    "tv_url_template": "https://web.nxsha.app/watch/tv/%d/%d/%d",
+    "url": "https://web.nxsha.app"
+  },
+  "Peachify": {
+    "allow_attributes": "",
+    "createdAt": "2026-07-02T23:15:12.277Z",
+    "enabled": true,
+    "isphone_enabled": true,
+    "istv_enabled": true,
+    "movie_parameters": {
+      "accent": "e50914",
+      "autoPlay": "true",
+      "cast": "hide",
+      "pip": "hide",
+      "sub": "English"
+    },
+    "movie_url_template": "https://peachify.top/embed/movie/%d",
+    "stream_provider_name": "Peachify",
+    "tv_parameters": {
+      "accent": "e50914",
+      "autoNext": "30",
+      "autoPlay": "true",
+      "cast": "hide",
+      "pip": "hide",
+      "sub": "English"
+    },
+    "tv_url_template": "https://peachify.top/embed/tv/%d/%d/%d",
+    "url": "https://peachify.top"
+  },
+  "PrimeSrc": {
+    "allow_attributes": "",
+    "createdAt": "2026-07-02T23:15:12.277Z",
+    "enabled": false,
+    "isphone_enabled": true,
+    "istv_enabled": true,
+    "movie_parameters": {
+      "fallback": "true",
+      "serverOrder": "PrimeVid"
+    },
+    "movie_url_template": "https://primesrc.me/embed/movie?tmdb=%d",
+    "stream_provider_name": "PrimeSrc",
+    "tv_parameters": {
+      "fallback": "true",
+      "serverOrder": "PrimeVid"
+    },
+    "tv_url_template": "https://primesrc.me/embed/tv?tmdb=%d&season=%d&episode=%d",
+    "url": "https://primesrc.me"
+  },
+  "Pulse": {
+    "allow_attributes": "",
+    "createdAt": "2026-07-26T23:04:01.746Z",
+    "enabled": false,
+    "isphone_enabled": false,
+    "istv_enabled": false,
+    "movie_url_template": "https://play.xpass.top/e/movie/%d",
+    "stream_provider_name": "Pulse",
+    "tv_url_template": "https://play.xpass.top/e/tv/%d/%d/%d",
+    "url": "https://play.xpass.top"
+  },
+  "Rivestream": {
+    "allow_attributes": "",
+    "createdAt": "2026-07-09T19:44:33.964Z",
+    "enabled": false,
+    "isphone_enabled": false,
+    "istv_enabled": false,
+    "movie_url_template": "https://rivestream.ru/embed?type=movie&amp;id=%d",
+    "stream_provider_name": "Rivestream",
+    "tv_url_template": "https://rivestream.ru/embed?type=tv&amp;id=%d&amp;season=%d&amp;episode=%d",
+    "url": "https://rivestream.ru"
+  },
+  "Smashystream": {
+    "allow_attributes": "",
+    "createdAt": "2026-07-02T23:15:12.277Z",
+    "enabled": true,
+    "iframe_attributes": {
+      "frameborder": "0"
+    },
+    "isphone_enabled": true,
+    "istv_enabled": true,
+    "movie_url_template": "https://embed.smashystream.com/playere.php?tmdb=%d",
+    "stream_provider_name": "Smashystream",
+    "tv_url_template": "https://embed.smashystream.com/playere.php?tmdb=%d&season=%d&episode=%d",
+    "url": "https://embed.smashystream.com"
+  },
+  "Stigstream": {
+    "allow_attributes": "",
+    "createdAt": "2026-07-09T14:13:47.405Z",
+    "enabled": true,
+    "isphone_enabled": true,
+    "istv_enabled": true,
+    "movie_url_template": "https://stigstream.ru/movie/watch/%d",
+    "stream_provider_name": "Stigstream",
+    "tv_url_template": "https://stigstream.ru/tv/watch/%d/%d/%d",
+    "url": "https://stigstream.ru"
+  },
+  "Streamo": {
+    "allow_attributes": "",
+    "createdAt": "2026-07-10T05:11:49.811Z",
+    "enabled": false,
+    "isphone_enabled": false,
+    "istv_enabled": false,
+    "movie_parameters": {
+      "play": "1"
+    },
+    "movie_url_template": "https://streamo.pro/movies/%d",
+    "stream_provider_name": "Streamo",
+    "tv_url_template": "https://streamo.pro/series/%d?play=1&s=%d&e=%d",
+    "url": "https://streamo.pro"
+  },
+  "Streamvaults": {
+    "allow_attributes": "",
+    "createdAt": "2026-07-10T05:11:49.811Z",
+    "enabled": false,
+    "isphone_enabled": false,
+    "istv_enabled": false,
+    "movie_url_template": "https://streamvaultsrc.click/embed/movie/%d",
+    "stream_provider_name": "Streamvaults",
+    "tv_url_template": "https://streamvaultsrc.click/embed/tv/%d/%d/%d",
+    "url": "https://streamvaultsrc.click"
+  },
+  "Toustream": {
+    "allow_attributes": "",
+    "createdAt": "2026-07-09T14:54:33.096Z",
+    "enabled": false,
+    "isphone_enabled": false,
+    "istv_enabled": false,
+    "movie_url_template": "https://toustream.xyz/tou/movies/%d",
+    "stream_provider_name": "Toustream",
+    "tv_url_template": "https://toustream.xyz/watch/tv/%d/%d/%d",
+    "url": "https://toustream.xyz"
+  },
+  "VidAPI": {
+    "allow_attributes": "",
+    "createdAt": "2026-07-02T23:15:12.277Z",
+    "enabled": true,
+    "isphone_enabled": true,
+    "istv_enabled": true,
+    "movie_parameters": {
+      "autoplay": "1",
+      "color": "e50914",
+      "overlay": "true",
+      "sub_lang": "en"
+    },
+    "movie_url_template": "https://vaplayer.ru/embed/movie/%d",
+    "stream_provider_name": "VidAPI",
+    "tv_parameters": {
+      "autoplay": "1",
+      "color": "e50914",
+      "overlay": "true",
+      "sub_lang": "en"
+    },
+    "tv_url_template": "https://vaplayer.ru/embed/tv/%d/%d/%d",
+    "url": "https://vaplayer.ru"
+  },
+  "VidCore": {
+    "allow_attributes": "",
+    "createdAt": "2026-07-02T23:15:12.277Z",
+    "enabled": true,
+    "isphone_enabled": true,
+    "istv_enabled": true,
+    "movie_parameters": {
+      "autoPlay": "true",
+      "chromecast": "false",
+      "sub": "en",
+      "theme": "e50914"
+    },
+    "movie_url_template": "https://vidcore.net/movie/%d",
+    "stream_provider_name": "VidCore",
+    "tv_parameters": {
+      "autoNext": "true",
+      "autoPlay": "true",
+      "chromecast": "false",
+      "nextButton": "true",
+      "sub": "en",
+      "theme": "e50914"
+    },
+    "tv_url_template": "https://vidcore.net/tv/%d/%d/%d",
+    "url": "https://vidcore.net"
+  },
+  "VidFast": {
+    "allow_attributes": "",
+    "createdAt": "2026-07-02T23:15:12.277Z",
+    "enabled": true,
+    "isphone_enabled": true,
+    "istv_enabled": true,
+    "movie_parameters": {
+      "autoPlay": "true",
+      "theme": "9B59B6"
+    },
+    "movie_url_template": "https://vidfast.vc/movie/%d",
+    "stream_provider_name": "VidFast",
+    "tv_parameters": {
+      "autoNext": "true",
+      "autoPlay": "true",
+      "nextButton": "true",
+      "theme": "9B59B6"
+    },
+    "tv_url_template": "https://vidfast.vc/tv/%d/%d/%d",
+    "url": "https://vidfast.pro"
+  },
+  "VidKing": {
+    "allow_attributes": "",
+    "createdAt": "2026-07-02T23:15:12.277Z",
+    "enabled": true,
+    "isphone_enabled": true,
+    "istv_enabled": false,
+    "movie_parameters": {
+      "autoPlay": "true",
+      "color": "e50914"
+    },
+    "movie_url_template": "https://www.vidking.net/embed/movie/%d",
+    "stream_provider_name": "VidKing",
+    "tv_parameters": {
+      "autoPlay": "true",
+      "color": "e50914",
+      "episodeSelector": "true",
+      "nextEpisode": "true"
+    },
+    "tv_url_template": "https://www.vidking.net/embed/tv/%d/%d/%d",
+    "url": "https://www.vidking.net"
+  },
+  "VidLink": {
+    "allow_attributes": "",
+    "createdAt": "2026-07-02T23:15:12.277Z",
+    "enabled": true,
+    "iframe_attributes": {
+      "frameborder": "0"
+    },
+    "isphone_enabled": true,
+    "istv_enabled": false,
+    "movie_parameters": {
+      "autoPlay": "true"
+    },
+    "movie_url_template": "https://vidlink.pro/movie/%d",
+    "stream_provider_name": "VidLink",
+    "tv_parameters": {
+      "autoPlay": "true"
+    },
+    "tv_url_template": "https://vidlink.pro/tv/%d/%d/%d",
+    "url": "https://vidlink.pro"
+  },
+  "VidNest": {
+    "allow_attributes": "",
+    "createdAt": "2026-07-02T23:15:12.277Z",
+    "enabled": true,
+    "iframe_attributes": {
+      "frameBorder": "0",
+      "scrolling": "no"
+    },
+    "isphone_enabled": true,
+    "istv_enabled": true,
+    "movie_parameters": {
+      "bottomcaption": "true",
+      "servericon": "show",
+      "timeslider": "1"
+    },
+    "movie_url_template": "https://vidnest.fun/movie/%d",
+    "stream_provider_name": "VidNest",
+    "tv_url_template": "https://vidnest.fun/tv/%d/%d/%d",
+    "url": "https://vidnest.fun"
+  },
+  "VidPlus": {
+    "allow_attributes": "",
+    "createdAt": "2026-07-02T23:15:12.277Z",
+    "enabled": false,
+    "isphone_enabled": false,
+    "istv_enabled": false,
+    "movie_parameters": {
+      "autoNext": "true",
+      "autoplay": "true",
+      "episodelist": "true",
+      "nextButton": "true",
+      "poster": "true",
+      "servericon": "true",
+      "title": "true"
+    },
+    "movie_url_template": "https://player.vidplus.to/embed/movie/%d",
+    "stream_provider_name": "VidPlus",
+    "tv_parameters": {
+      "autoNext": "true",
+      "autoplay": "true",
+      "poster": "true",
+      "servericon": "true",
+      "title": "true"
+    },
+    "tv_url_template": "https://player.vidplus.to/embed/tv/%d/%d/%d",
+    "url": "https://player.vidplus.to"
+  },
+  "VidSrc (WTF) v1": {
+    "allow_attributes": "",
+    "createdAt": "2026-07-02T23:15:12.277Z",
+    "enabled": true,
+    "isphone_enabled": true,
+    "istv_enabled": true,
+    "movie_url_template": "https://vidsrc.wtf/api/1/movie/?id=%d",
+    "stream_provider_name": "VidSrc (WTF) v1",
+    "tv_url_template": "https://vidsrc.wtf/api/1/tv/?id=%d&s=%d&e=%d",
+    "url": "https://vidsrc.wtf"
+  },
+  "VidSrc (WTF) v3": {
+    "allow_attributes": "",
+    "createdAt": "2026-07-02T23:15:12.277Z",
+    "enabled": true,
+    "isphone_enabled": true,
+    "istv_enabled": true,
+    "movie_url_template": "https://vidsrc.wtf/api/3/movie/?id=%d",
+    "stream_provider_name": "VidSrc (WTF) v3",
+    "tv_url_template": "https://vidsrc.wtf/api/3/tv/?id=%d&s=%d&e=%d",
+    "url": "https://vidsrc.wtf"
+  },
+  "VidSrc (WTF) v4": {
+    "allow_attributes": "",
+    "createdAt": "2026-07-02T23:15:12.277Z",
+    "enabled": true,
+    "isphone_enabled": true,
+    "istv_enabled": true,
+    "movie_url_template": "https://vidsrc.wtf/api/4/movie/?id=%d",
+    "stream_provider_name": "VidSrc (WTF) v4",
+    "tv_url_template": "https://vidsrc.wtf/api/4/tv/?id=%d&s=%d&e=%d",
+    "url": "https://vidsrc.wtf"
+  },
+  "VidUp": {
+    "allow_attributes": "",
+    "createdAt": "2026-07-02T23:15:12.277Z",
+    "enabled": true,
+    "isphone_enabled": true,
+    "istv_enabled": true,
+    "movie_parameters": {
+      "autoPlay": "true",
+      "chromecast": "false",
+      "sub": "en",
+      "theme": "e50914"
+    },
+    "movie_url_template": "https://vidup.to/movie/%d",
+    "stream_provider_name": "VidUp",
+    "tv_parameters": {
+      "autoPlay": "true",
+      "chromecast": "false",
+      "sub": "en",
+      "theme": "e50914"
+    },
+    "tv_url_template": "https://vidup.to/tv/%d/%d/%d",
+    "url": "https://vidup.to"
+  },
+  "VidZee": {
+    "allow_attributes": "",
+    "createdAt": "2026-07-02T23:15:12.277Z",
+    "enabled": true,
+    "isphone_enabled": true,
+    "istv_enabled": false,
+    "movie_url_template": "https://player.vidzee.wtf/v2/embed/movie/%d",
+    "stream_provider_name": "VidZee",
+    "tv_url_template": "https://player.vidzee.wtf/v2/embed/tv/%d/%d/%d",
+    "url": "https://player.vidzee.wtf"
+  },
+  "Vidapi2": {
+    "allow_attributes": "",
+    "createdAt": "2026-07-26T22:58:13.169Z",
+    "enabled": false,
+    "isphone_enabled": false,
+    "istv_enabled": false,
+    "movie_url_template": "https://vidapi.xyz/embed/movie/%d",
+    "stream_provider_name": "Vidapi2",
+    "tv_url_template": "https://vidapi.xyz/embed/tv/%d/%d/%d",
+    "url": "https://vidapi.xyz"
+  },
+  "Videasy": {
+    "allow_attributes": "",
+    "createdAt": "2026-07-02T23:15:12.277Z",
+    "enabled": true,
+    "iframe_attributes": {
+      "allow": "encrypted-media",
+      "frameborder": "0"
+    },
+    "isphone_enabled": true,
+    "istv_enabled": true,
+    "movie_parameters": {
+      "color": "8B5CF6",
+      "overlay": "true"
+    },
+    "movie_url_template": "https://player.videasy.to/movie/%d",
+    "stream_provider_name": "Videasy",
+    "tv_parameters": {
+      "autoplayNextEpisode": "true",
+      "color": "8B5CF6",
+      "episodeSelector": "true",
+      "nextEpisode": "true",
+      "overlay": "true"
+    },
+    "tv_url_template": "https://player.videasy.to/tv/%d/%d/%d",
+    "url": "https://player.videasy.net"
+  },
+  "Vidlove": {
+    "allow_attributes": "",
+    "createdAt": "2026-07-09T21:38:52.785Z",
+    "enabled": true,
+    "isphone_enabled": true,
+    "istv_enabled": true,
+    "movie_url_template": "https://player.vidlove.cc/embed/movie/%d",
+    "stream_provider_name": "Vidlove",
+    "tv_url_template": "https://player.vidlove.cc/embed/tv/%d/%d/%d",
+    "url": "https://vidlove.cc"
+  },
+  "Vidrock": {
+    "allow_attributes": "",
+    "createdAt": "2026-07-02T23:15:12.277Z",
+    "enabled": false,
+    "isphone_enabled": true,
+    "istv_enabled": true,
+    "movie_parameters": {
+      "autoplay": "true"
+    },
+    "movie_url_template": "https://vidrock.ru/movie/%d",
+    "stream_provider_name": "Vidrock",
+    "tv_parameters": {
+      "autonext": "true",
+      "autoplay": "true"
+    },
+    "tv_url_template": "https://vidrock.ru/tv/%d/%d/%d",
+    "url": "https://vidrock.net"
+  },
+  "Vidsrc": {
+    "allow_attributes": "",
+    "createdAt": "2026-07-09T19:33:31.613Z",
+    "enabled": true,
+    "isphone_enabled": true,
+    "istv_enabled": true,
+    "movie_url_template": "https://vidsrc.mov/embed/movie/%d",
+    "stream_provider_name": "Vidsrc",
+    "tv_url_template": "https://vidsrc.mov/embed/tv/%d/%d/%d",
+    "url": "https://vidsrc.mov"
+  },
+  "Vidsrcsrb": {
+    "allow_attributes": "",
+    "createdAt": "2026-07-14T08:01:33.408Z",
+    "enabled": true,
+    "isphone_enabled": true,
+    "istv_enabled": true,
+    "movie_url_template": "https://vidsrc.sbs/embed/movie/%d",
+    "stream_provider_name": "Vidsrcsrb",
+    "tv_url_template": "https://vidsrc.sbs/embed/tv/%d/%d/%d",
+    "url": "https://vidsrc.sbs"
+  },
+  "Vidstorm": {
+    "allow_attributes": "",
+    "createdAt": "2026-07-26T22:55:26.125Z",
+    "enabled": false,
+    "isphone_enabled": false,
+    "istv_enabled": false,
+    "movie_parameters": {
+      "autoplay": "true",
+      "download": "false",
+      "theme": "ff6b6b"
+    },
+    "movie_url_template": "https://vidstorm.ru/movie/%d",
+    "stream_provider_name": "Vidstorm",
+    "tv_parameters": {
+      "autonext": "true",
+      "autoplay": "true",
+      "download": "false",
+      "theme": "ff6b6b"
+    },
+    "tv_url_template": "https://vidstorm.ru/tv/%d/%d/%d",
+    "url": "https://vidstorm.ru"
+  },
+  "Vidsync": {
+    "allow_attributes": "",
+    "createdAt": "2026-07-02T23:15:12.277Z",
+    "enabled": true,
+    "isphone_enabled": true,
+    "istv_enabled": true,
+    "movie_parameters": {
+      "autoPlay": "true",
+      "theme": "e50914"
+    },
+    "movie_url_template": "https://vidsync.xyz/embed/movie/%d",
+    "stream_provider_name": "Vidsync",
+    "tv_parameters": {
+      "autoNext": "true",
+      "autoPlay": "true",
+      "theme": "e50914"
+    },
+    "tv_url_template": "https://vidsync.xyz/embed/tv/%d/%d/%d",
+    "url": "https://vidsync.xyz"
+  },
+  "Vidzen": {
+    "allow_attributes": "",
+    "createdAt": "2026-07-02T23:15:12.277Z",
+    "enabled": true,
+    "isphone_enabled": true,
+    "istv_enabled": false,
+    "movie_parameters": {
+      "autoplay": "true"
+    },
+    "movie_url_template": "https://vidzen.fun/movie/%d",
+    "stream_provider_name": "Vidzen",
+    "tv_parameters": {
+      "autoplay": "true"
+    },
+    "tv_url_template": "https://vidzen.fun/tv/%d/%d/%d",
+    "url": "https://vidzen.fun"
+  },
+  "Vlux": {
+    "allow_attributes": "",
+    "createdAt": "2026-07-02T23:15:12.277Z",
+    "enabled": true,
+    "isphone_enabled": true,
+    "istv_enabled": false,
+    "movie_parameters": {
+      "autoplay": "true"
+    },
+    "movie_url_template": "https://vidlux.xyz/embed/movie/%d",
+    "stream_provider_name": "Vlux",
+    "tv_parameters": {
+      "autoplay": "true"
+    },
+    "tv_url_template": "https://vidlux.xyz/embed/tv/%d/%d/%d",
+    "url": "https://vidlux.xyz"
+  },
+  "Warp": {
+    "allow_attributes": "",
+    "enabled": true,
+    "isphone_enabled": true,
+    "istv_enabled": true,
+    "movie_url_template": "https://vidfast.pro/movie/%d",
+    "stream_provider_name": "Warp",
+    "tv_url_template": "https://vidfast.pro/tv/%d/%d/%d",
+    "url": "https://vidfast.pro"
+  },
+  "Watchott": {
+    "allow_attributes": "",
+    "createdAt": "2026-07-10T05:11:49.811Z",
+    "enabled": false,
+    "isphone_enabled": true,
+    "istv_enabled": true,
+    "movie_url_template": "https://watchott.ru/play?id=%d&type=movie",
+    "stream_provider_name": "Watchott",
+    "tv_url_template": "https://watchott.ru/play?id=%d&type=tv&season=%d&episode=%d",
+    "url": "https://watchott.ru"
+  },
+  "Zxc": {
+    "allow_attributes": "",
+    "createdAt": "2026-07-02T23:15:12.277Z",
+    "enabled": true,
+    "isphone_enabled": true,
+    "istv_enabled": false,
+    "movie_parameters": {
+      "autoplay": "true"
+    },
+    "movie_url_template": "https://zxcstream.xyz/embed/movie/%d",
+    "stream_provider_name": "Zxc",
+    "tv_parameters": {
+      "autoplay": "true"
+    },
+    "tv_url_template": "https://zxcstream.xyz/embed/tv/%d/%d/%d",
+    "url": "https://zxcstream.xyz"
+  }
+}
